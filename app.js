@@ -4,7 +4,7 @@ var getNow = function() {
   
   // moment.js makes it easy to create a datetime with particular forma
   // the format below will display to the 100th second
-  var result = moment().format('YYYY-MM-DD | HH:MM:ss:SS');
+  var result = moment().format('YYYY-MM-DD | HH:mm:ss:SS');
 
   return result;
 };
